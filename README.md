@@ -32,7 +32,7 @@ To analyze TCS historical stock data, identify key factors influencing its price
 
 ---
 
-## 📊 Key Steps
+##  Key Steps
 - **Data Preprocessing:**
   - Converted dates, extracted day/month, created Previous Close feature.
   - Removed missing or anomalous entries.
