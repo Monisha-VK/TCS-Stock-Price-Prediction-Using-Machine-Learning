@@ -1,17 +1,17 @@
 # TCS-Stock-Price-Prediction-Using-Machine-Learning
 Developed a predictive model for TCS stock prices using machine learning, achieving ~0.74 R² and delivering key insights through professional data visualizations.
-# 📈 TCS Stock Price Prediction Using Machine Learning
+#  TCS Stock Price Prediction Using Machine Learning
 
 This project aims to predict the **closing stock price of Tata Consultancy Services (TCS)** using historical data and a Linear Regression model. By exploring daily price movements and engineered time-based features, it provides insights into stock trends and builds a predictive model with solid performance.
 
 ---
 
-## 🎯 Objective
+##  Objective
 To analyze TCS historical stock data, identify key factors influencing its price, and build a regression model capable of forecasting future closing prices.
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 - Historical stock data for TCS containing:
   - Date
   - Open, High, Low, Close prices
@@ -23,7 +23,7 @@ To analyze TCS historical stock data, identify key factors influencing its price
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 - Python (pandas, numpy)
 - Jupyter Notebook
 - Data Visualization: matplotlib, seaborn
@@ -50,20 +50,20 @@ To analyze TCS historical stock data, identify key factors influencing its price
 
 ---
 
-## 🖼 Sample Visualizations
+##  Sample Visualizations
 
-**1️⃣ Historical TCS Closing Prices Over Time**  
+**1️. Historical TCS Closing Prices Over Time**  
 Shows the steady growth of TCS stock, with notable rises post-2016 and post-COVID recovery.
 
-**2️⃣ TCS Closing Price with 50-day and 200-day Moving Averages**  
+**2️. TCS Closing Price with 50-day and 200-day Moving Averages**  
 Illustrates market trends and momentum.
 
-**3️⃣ Actual vs Predicted Close Prices**  
+**3️. Actual vs Predicted Close Prices**  
 Highlights model performance; points closer to the diagonal indicate better predictions.
 
 ---
 
-## 💾 Model Saving
+##  Model Saving
 The trained model is saved using pickle for future use:
 ```python
 import pickle
